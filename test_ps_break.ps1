@@ -8,9 +8,9 @@ function Test-Function {
         if ($fish -eq 7)
         {
             #break      # <- abort loop
-            #continue  # <- skip just this iteration, but continue loop
+            continue  # <- skip just this iteration, but continue loop
             #return    # <- abort code, and continue in caller scope
-            exit      # <- abort code at caller scope 
+            #exit      # <- abort code at caller scope 
         }
 
         "fishing fish #$fish"
